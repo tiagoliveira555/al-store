@@ -14,9 +14,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="antialiased">
+<body class="bg-slate-950 antialiased">
     <h1 class="text-red-400">Teste</h1>
     <img src="{{ asset('imgs/logo.png') }}" alt="">
+    <img src="{{ asset('imgs/banner-55off.png') }}" alt="">
+
+    <h1 class="text-4xl text-[#165F0F]">Cor Green Figma</h1>
+    <h1 class="text-4xl">Cor Green Tailwind</h1>
 </body>
 
 </html>
