@@ -14,8 +14,8 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="antialiased">
-    <nav class="border-gray-900">
+<body class="container mx-auto bg-slate-950 text-white antialiased">
+    <nav class="border-gray-900 bg-white">
         <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
@@ -66,8 +66,6 @@
 
     </div>
     </div>
-
-    <livewire:count />
 </body>
 
 </html>
